@@ -1,15 +1,3 @@
-/* xs */
-/* @media (min-width: 475 */
-/* xs */
-/* @media (min-width: 640 */
-/* xs */
-/* @media (min-width: 768 */
-/* xs */
-/* @media (min-width: 1024 */
-/* xs */
-/* @media (min-width: 1280 */
-/* xs */
-/* @media (min-width: 1536 */
 .header {
   display: flex;
   justify-content: flex-end;
@@ -17,7 +5,6 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
 .header__menu {
   display: flex;
   align-items: center;
@@ -26,7 +13,6 @@
   padding: 0;
   gap: 2em;
 }
-
 .header__link {
   font-size: var(--size-xs);
   text-decoration: none;
@@ -37,10 +23,12 @@
 .header__link:hover {
   color: var(--clr-rose);
 }
-
 .header__line {
   border: 1px solid var(--clr-slate400);
   padding-top: 1.5em;
+}
+.header__resume {
+  font-size: var(--size-xs);
 }
 
 .fa-moon {
