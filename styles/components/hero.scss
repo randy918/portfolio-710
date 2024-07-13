@@ -1,0 +1,198 @@
+.hero {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    &__img {
+
+        border-radius: 50%;
+        aspect-ratio: 1;
+        width: 6rem;
+        height: 6rem;
+
+    }
+
+    &__subtitle {
+
+        color: var(--clr-slate400);
+        font-size: var(--size-base);
+
+    }
+
+    &__title {
+
+        color: var(--clr-slate400);
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        line-height: 0.9;
+
+    }
+
+    &__description {
+
+        max-width: 60ch;
+        font-size: var(--size-sm);
+        color: var(--clr-slate400);
+
+    }
+
+    &__btn {
+
+        text-transform: capitalize;
+        font-size: var(--size-sm);
+
+    }
+
+    /* x5 */
+    @media (min-width: 475px) {
+
+        .hero {
+
+            gap: 1.5rem;
+
+            &__img {
+
+                width: 6.5rem;
+                height: 6.5rem;
+
+            }
+
+            &__subtitle {
+
+                font-size: var(--size-lg);
+
+            }
+
+            &__title {
+
+                font-size: var(--size-7xl);
+
+            }
+
+            &__description {
+
+                font-size: var(--size-base);
+
+            }
+
+            &__btn {
+
+                text-transform: capitalize;
+                font-size: var(--size-base);
+
+            }
+
+        }
+    }
+
+    /* sm */
+    /* @media (min-width: 640px) {} */
+
+    /* md */
+    /* @media (min-width: 768px) {} */
+
+    /* Lg */
+    @media (min-width: 1024px) {
+
+        .hero {
+
+            &__img {
+
+                width: 8rem;
+                height: 8rem;
+
+            }
+
+            &__subtitle {
+
+                font-size: var(--size-2xl);
+
+            }
+
+            &__title {
+
+                font-size: var(--size-8xl);
+
+            }
+
+            &__description {
+
+                font-size: var(--size-lg);
+
+            }
+
+            &__btn {
+
+                text-transform: capitalize;
+                font-size: var(--size-lg);
+
+            }
+
+        }
+
+        /* XL */
+        @media (min-width: 1280px) {
+        
+            .hero {
+
+gap: 2rem;
+
+                &__img {
+    
+                    width: 10rem;
+                    height: 10rem;
+    
+                }
+    
+                &__subtitle {
+    
+                    font-size: var(--size-4xl);
+    
+                }
+    
+                &__title {
+                    font-size: var(--size-9xl);
+    
+                }
+    
+                &__description {
+    
+                    font-size: var(--size-xl);
+    
+                }
+    
+                &__btn {
+    
+                    text-transform: capitalize;
+                    font-size: var(--size-xl);
+    
+                }
+        
+        }
+
+        /* 2xL */
+        /* @media (min-width: 1536px) {} */
+
+        /* x5 */
+        /* @media (min-width: 475px) {} */
+
+        /* sm */
+        /* @media (min-width: 640px) {} */
+
+        /* md */
+        /* @media (min-width: 768px) {} */
+
+        /* Lg */
+        /* @media (min-width: 1024px) {} */
+
+        /* XL */
+        /* @media (min-width: 1280px) {} */
+
+        /* 2xL */
+        /* @media (min-width: 1536px) {} */
+    }}}
