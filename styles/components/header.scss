@@ -23,8 +23,53 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
 
+}
+
+.header__menu {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border: 1px solid red;
+    padding: 0;
+    gap: 2em;
+
+}
+
+.header__link {
+
+    font-size: var(--size-xs);
+    text-decoration: none;
+    font-family: 'Bold';
+    color: var(--clr-slate400);
+    transition: color 0.3s;
+
+
+    &:hover {
+
+        color: var(--clr-rose);
+
+    }
+}
+
+.header__line {
+
+    border: 1px solid var(--clr-slate400);
+    padding-top: 1.5em;
+
+}
+
+.fa-moon {
+    transition: filter 0.3s ease;
+    color: var(--clr-slate400);
+    transition: color 0.3s;
+
+
+    &:hover {
+        color: white;
+    
+    }
 }
 
 /* xs */
